@@ -20,19 +20,34 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;
       color: #000000;
+
+      /* Add the background styling */
+      background-image: url('https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/bgmi.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
+    .content-container {
+       background-color: rgba(255, 255, 255, 0.5); /* White with 80% opacity */
+       padding: 50px;
+       border-radius: 20px;
+       max-width: 1200px;
+       margin: 50px auto;
+       box-shadow: 0 8px 20px rgba(0, 0, 0, 5.0);
+      }
     a {
-      color: #ebddc6;
+      color: rgba(255, 255, 255, 0.3);
       text-decoration: none;
     }
     a:hover, a:focus {
       text-decoration: underline;
     }
-      header {
-      background-color: #ebddc6;
+    header {
+      background: rgb(235,221,198, 0.6);
       color: rgb(241, 10, 10);
       padding: 1rem 2rem;
-      
+      border-radius: 20px;
       top: 0;
       z-index: 1000;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -101,14 +116,14 @@
     /* Sections */
     section {
       padding: 1rem 1rem;
-      background: #ebddc6;
+      background: rgb(235,221,198, 0.6);
       margin-top: 3rem;
       margin-bottom: 3rem;
       border-radius: 15px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     section:nth-child(even) {
-      background: whitesmoke;
+      background: rgba(255, 255, 255, 0.5);
     }
     section h2 {
       text-align: center;
@@ -180,7 +195,7 @@
       padding: 0;
     }
     .events li {
-      background: white;
+      background: rgba(255, 255, 255);
       margin-bottom: 0.8rem;
       padding: 1rem;
       border-radius: 6px;
@@ -245,9 +260,10 @@
 
     /* Footer */
     footer {
-      background-color: #ebddc6;
+       background: rgb(235,221,198);
       color: white;
       padding: 1rem 1rem;
+      border-radius: 20px;
       font-size: 0.9rem;
       display: flex;
       flex-direction: column;
@@ -267,8 +283,8 @@
     }
   </style>
 </head>
-<body background="images\bgmi.jpg" >
-
+<body>
+  <div class="content-container">
   <header>
     <div class="container">
       <div class="logo" tabindex="0">SMT Labhuben Kanjibhai Babariya Secondary and Higher Secondary School Hamapur</div>
@@ -286,17 +302,18 @@
   </header>
 
   <section class="hero" role="img" aria-label="Students and school building">
-    <h1>Welcome to SMT Labhuben Kanjibhai Babariya Secondary and Higher Secondary School Hamapur</h1>
+   <i><h1><b> Welcome to SMT Labhuben Kanjibhai Babariya Secondary and Higher Secondary School Hamapur </b></h1></i>
   </section>
 
   <section id="about" class="about" tabindex="0">
-    <h2>About Us</h2>
-    <p>Established with a vision to nurture young minds, SMT Labhuben Kanjibhai Babariya Secondary and Higher Secondary School Hamapur is dedicated to providing quality education and holistic development for students from secondary to higher secondary levels.</p>
-    <p>Our mission is to foster an environment that inspires learning, creativity, discipline, and social responsibility, preparing students for a promising future.</p>
+   <i><b> <h2>About Us</h2></b>
+
+   <b> <p>Established with a vision to nurture young minds, SMT Labhuben Kanjibhai Babariya Secondary and Higher Secondary School Hamapur is dedicated to providing quality education and holistic development for students from secondary to higher secondary levels.</p>
+       <p>Our mission is to foster an environment that inspires learning, creativity, discipline, and social responsibility, preparing students for a promising future.</p></b></i>
   </section>
 
   <section id="academics" class="academics" tabindex="0">
-    <h2>Academics</h2>
+    <i><b><h2>Academics</h2>
     <p>We offer a comprehensive curriculum that includes:</p>
     <ul>
       <li>Science (Physics, Chemistry, Biology)</li>
@@ -309,75 +326,78 @@
     <p>Our teachers are committed to inspiring excellence and critical thinking in all students.</p>
     <p> Our teachers are also provides old exam question papers and sample exam papers to the <br> students to prepare and do practice for exam to passout from exam easily.</p>
     <p> Also our teachers take monthly test to know that which student have to do more hard work <br> for each subject.</p>
-    <p> We also provide perodical test to our student to make them strong and for prepare for exam.</p>
-  </section>
+    <p> We also provide perodical test to our student to make them strong and for prepare for exam.</p></b></i>
+   </section>
 
   <section id="admissions" class="admissions" tabindex="0">
 
     
-    <h2>Admissions</h2>
+   <i><b><h2>Admissions</h2>
     <p>Admissions are open for the academic year 2024-2025. We welcome students who are eager to learn and grow in a supportive and stimulating environment.</p>
     <p>Please contact the school office for admission forms, eligibility criteria, and important dates.</p>
     <center>
      <a href="https://forms.gle/Ffe1dPnLKpijuJz19">click to open admission form</a>
-    </center> 
+    </center> </b></i>
   </section>
   
   <section id="faculty" class="faculty" tabindex="0">
     <h2><b><i> Our Staff</b></i></h2>
-    <p>Our experienced and dedicated teaching staff strive to create an enriching classroom environment.</p>
+   <i><b><p>Our experienced and dedicated teaching staff strive to create an enriching classroom environment.</p>
     <div class="faculty-list" aria-label="Faculty members">
       <div class="faculty-member">
-        <img src="https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/vivek.jpg" alt="Mr. Vipul Bhatt, Head of school" />
+        <img src="https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/vivek.jpg" alt= vivek>
         <h3>Mr. Vipul Bhatt </h3>
         <p> School Principal</p>
         <p> M.A,B.ed/D.P.Ed</p>
       </div>
       <div class="faculty-member">
-        <img src="\images\vivek7.jpeg" alt="Mr. Chavda, Mathematics Teacher" />
+        <img src="https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/vivek7.jpeg" alt= vivek7 >
         <h3>Mr. Jayntilal Chavda</h3>
         <p>Mathematics lecturer</p>
         <p> B.SC./B.Ed.</p>
       </div>
       <div class="faculty-member">
-        <img src="\images\vivek2.jpg" alt="Mr. Kaushik Makvana, English Teacher" />
+        <img src="https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/vivek2.jpg" alt= vivek2 >
         <h3>Mr. Kaushik Makvana</h3>
         <p>English lecturer</p>
         <p> M.A./B.Ed. M.Ed</p>
       </div>
       <div class="faculty-member">
-        <img src="\images\vivek3.jpg" alt="Mr. Parmar, Accounts & Secreterial Practice  lecturer" />
+        <img src="https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/vivek3.jpg" alt= vivek3>
         <h3>Mr. Babubhai Parmar</h3>
         <p>Accounts & Secreterial Practice  lecturer</p>
         <p> M.COM./B.Ed. </p>
       </div>
  
 	<div class="faculty-member">
-        <img src="\images\j2.jpg" alt="Miss. Vaishali Sojitra, Language lecturer" />
+        <img src="https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/j2.jpg" alt= j2>
         <h3> DR. Vaishali Sojitra</h3>
         <p>Language lecturer</p>
         <P> M.A./B.Ed. Ph.d./UGC NET</P>
       </div>
 
 	<div class="faculty-member">
-        <img src="\images\vivek5.jpeg" alt="Mr. Ashish bhesaniya, History lecturer" />
+        <img src="https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/vivek5.jpeg" alt= vivek5 >
         <h3>Mr. Ashish bhesaniya</h3>
         <p>History lecturer</p>
         <P> M.A./B.Ed</P>
       </div>
 
 	<div class="faculty-member">
-        <img src="\images\vivek6.jpeg" alt="Mr. Vijay Maru , peon" />
+        <img src="https://raw.githubusercontent.com/BoradVivek/lkbhamapur2/blob/main/vivek6.jpeg" alt= vivek6 >
         <h3>Mr. Vijay Maru </h3>
         <p>cleark</p>
         <p> H.S.C</p>
       </div>
       
     </div>
+    </b>
+    </i>
+
   </section>
 
   <section id="events" class="events" tabindex="0">
-    <h2>Upcoming Events</h2>
+    <i><b><h2>Upcoming Events</h2>
     <ul>
       <li><strong>Annual Sports Day:</strong> March 15, 2024</li>
       <li><strong>Science Exhibition:</strong> April 10, 2024</li>
@@ -391,11 +411,14 @@
       <li><strong> Awards Ceremony:</strong> March 31, 2025</li>
       <li><strong> Annual Function:</strong> july 12, 2025</li>
     </ul>
+    </b>
+    </i>
+
   </section>
   <form action="https://formsubmit.co/vivekborad530@gmail.com" method="POST">
     
   <section id="contact" class="contact" tabindex="0" aria-label="Contact section">
-    <h2>Contact Us</h2>
+    <b><h2>Contact Us</h2>
     <form id="contactForm" aria-describedby="formMessage">
       <label for="name">Name*</label>
       <input type="text" id="name" name="name" aria-required="true" required aria-describedby="nameError" />
@@ -413,11 +436,13 @@
 
       <div id="formMessage" class="form-message" role="alert" aria-live="polite"></div>
     </form>
+    </b>
+
   </section>
 
   <footer>
     <div class="container">
-      &copy; 2024 SMT Labhuben Kanjibhai Babariya Secondary and Higher Secondary School Hamapur. All rights reserved.
+   <i><b> &copy; 2024 SMT Labhuben Kanjibhai Babariya Secondary and Higher Secondary School Hamapur. All rights reserved.</b></i>
     </div>
   </footer>
 
@@ -466,7 +491,6 @@
       }
 
       if (valid) {
-        
         // Since no backend - simulate message sending
         formMessage.style.color = 'green';
         formMessage.textContent = 'Thank you for contacting us. We will get back to you soon.';
@@ -485,6 +509,6 @@
   </script>
 
 </form>
-  
+  </div>
 </body>
 </html>
